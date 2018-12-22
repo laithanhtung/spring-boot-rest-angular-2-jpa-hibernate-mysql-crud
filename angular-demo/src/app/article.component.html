@@ -43,7 +43,6 @@
 	<img *ngIf="requestProcessing" src="assets/images/loading.gif">
  </ng-template>
 </div>
-<h3>Article Details {{allArticles | json}}</h3>
 <table>
   <tr><th> Id</th> <th>Title</th><th>Category</th><th></th><th></th></tr>
   <tr *ngFor="let article of allArticles" >
